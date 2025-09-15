@@ -37,7 +37,7 @@ public class IfStatementLab {
 //PROBLEM 2
 
 System.out.println("Enter your TEMPERATURE IN CELSIUS");
- double temperature = scanner.nextInt();
+ double temperature = scanner.nextDouble();
  
   if (temperature < 0 ){
  System.out.println("Freezing point" );
@@ -99,3 +99,4 @@ System.out.println("Enter your TEMPERATURE IN CELSIUS");
   
 
     
+
