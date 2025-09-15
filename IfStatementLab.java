@@ -27,7 +27,7 @@ public class IfStatementLab {
  System.out.println("Invalid Age" );
   } else if (age < 13) {
  System.out.println("You are a child");
-  } else if (age >=13 & age <=19) { 
+  } else if (age >=13 && age <=19) { 
   System.out.println("You are a teenager");
   } else if (age >=20) {
   System.out.println("You are an adult");
@@ -41,7 +41,7 @@ System.out.println("Enter your TEMPERATURE IN CELSIUS");
  
   if (temperature < 0 ){
  System.out.println("Freezing point" );
-  } else if (temperature >=0 & temperature <=25) {
+  } else if (temperature >=0 && temperature <=25) {
  System.out.println("Normal Weather");
   } else if (temperature > 25) { 
   System.out.println("Hot Weather");
@@ -99,4 +99,5 @@ System.out.println("Enter your TEMPERATURE IN CELSIUS");
   
 
     
+
 
